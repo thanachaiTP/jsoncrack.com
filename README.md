@@ -64,6 +64,12 @@ If you want to run JSON Crack locally:
 * Go to [http://localhost:8888]
 ```
 
+## 🐳 Docker-compose
+
+```
+# docker-compose up -d
+```
+
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).

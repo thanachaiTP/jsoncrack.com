@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  jsoncrack:
+    container_name: jsoncrack
+    image: jsoncrack:latest
+    cpus: 0.5
+    mem_limit: 1024m
+    build: 
+      context: ./
+      dockerfile: ./Dockerfile
+    restart: always
+    environment:
+      - TZ=Asia/Bangkok
+    ports:
+      - 8888:8080
